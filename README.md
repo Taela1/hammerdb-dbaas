@@ -22,10 +22,10 @@ diset connection pg_host $HOST
 diset connection pg_port 21699
 diset tpcc pg_count_ware $NUMCPUOFCLIENT
 diset tpcc pg_num_vu $NUMCPUOFCLIENT
-diset tpcc pg_superuser avnadmin
+diset tpcc pg_superuser $USER
 diset tpcc pg_superuserpass $DBPASS
-diset tpcc pg_defaultdbase defaultdb
-diset tpcc pg_user avnadmin
+diset tpcc pg_defaultdbase $DEFAULTDB
+diset tpcc pg_user $USER
 diset tpcc pg_pass $DBPASS
 diset tpcc pg_count_ware 16 (number of client cores)
 diset tpcc pg_num_vu 16 (number of client cores)
@@ -43,10 +43,10 @@ connection {
 tpcc       {
  pg_count_ware       = 16
  pg_num_vu           = 16
- pg_superuser        = avnadmin
+ pg_superuser        = $USER
  pg_superuserpass    = $PWD
- pg_defaultdbase     = defaultdb
- pg_user             = avnadmin
+ pg_defaultdbase     = $DEFAULTDB
+ pg_user             = $USER
  pg_pass             = $PWD
  pg_dbase            = tpcc
  pg_tspace           = pg_default
