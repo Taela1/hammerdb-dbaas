@@ -1,7 +1,7 @@
-# PGSQL benchmark results on HammerDB TPM-C benchmark
+# HammerDB TPC-C benchmark results
 
-| Plan | NOPM | TPM | vCPU | RAM |  #Readreplica |
-| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
+| Plan | NOPM | TPM | vCPU | RAM | #Readreplica |
+| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
 | Startup-4 | 51840 | 119940 | 2 | 4 | |
 | Startup-16 | 124858 | 288618 | 4 | 16 | |
 | Startup-64 | 263061 | 606139 | 12 | 64 | |
