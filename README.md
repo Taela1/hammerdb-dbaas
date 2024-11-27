@@ -88,14 +88,14 @@ Log Timestamps = 0
 ## Execution
 
 ```
+hammerdb>vuset vu 16
 hammerdb>loadscript
 hammerdb>buildschema
-hammerdb>vuset vu 16
 hammerdb>vucreate
 hammerdb>vurun
 ```
 wait for run to finish. Results will be displayed in output on screen:
-Vuser 1:TEST RESULT : System achieved 51840 NOPM from 119940 PostgreSQL TPM
+>Vuser 1:TEST RESULT : System achieved 51840 NOPM from 119940 PostgreSQL TPM
 ```
 hammerdb>vudestroy
 ```
